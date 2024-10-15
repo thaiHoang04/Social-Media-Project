@@ -1,0 +1,37 @@
+.history-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the pop-up is above other content */
+}
+
+.history-popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.close-button {
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-inline: 6px;
+}
+
+.history-list {
+    margin-top: 20px;
+}
+
+.history-entry {
+    margin-bottom: 20px;
+}

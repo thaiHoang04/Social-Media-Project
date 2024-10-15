@@ -1,0 +1,9 @@
+.createGroupButton {
+    background-color: #EDF6FE;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #2D63C0;
+    transition: background-color 0.3s ease;
+}

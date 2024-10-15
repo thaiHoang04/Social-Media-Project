@@ -1,0 +1,10 @@
+.small-select {
+    margin-top: 8px;
+    width: auto;
+    padding: 2px 4px;
+    font-size: 12px;
+    height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}

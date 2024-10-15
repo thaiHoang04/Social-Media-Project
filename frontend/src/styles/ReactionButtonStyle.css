@@ -1,0 +1,67 @@
+/* Base styles for the reaction button container */
+.reaction-button-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Base styles for the reaction button */
+.reaction-button {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Styles for the reaction button icons */
+.reaction-button-icon {
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+/* Hover effect */
+.reaction-button:hover {
+    background-color: #f0f0f0;
+    border-color: #d0d0d0;
+}
+
+/* Styles for the reaction popup menu */
+.reaction-popup-menu {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    border: 1px solid #d0d0d0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+/* Styles for each button in the popup menu */
+.reaction-popup-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for popup menu items */
+.reaction-popup-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Styles for the active state in the popup menu */
+.reaction-popup-item.active {
+    background-color: #e0e0e0;
+}

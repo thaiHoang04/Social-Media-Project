@@ -1,0 +1,61 @@
+.removeButton1 {
+    background-color: #ff0000;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+}
+
+.removeButton2 {
+    background-color: #ff0000;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.removeButton1:hover {
+    background-color: #ca1818;
+}
+
+.removeButton2:hover {
+    background-color: #ca1818;
+}
+
+.buttonBox {
+    margin-left: auto;
+}
+
+.acceptButton {
+    background-color: #14e505;
+    border-color: #14e505;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.acceptButton:hover {
+    background-color: #0dbd00;
+}
+
+.memberContainer, .requestContainer {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(214, 240, 244);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.containerBox {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

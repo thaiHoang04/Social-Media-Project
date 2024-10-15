@@ -1,0 +1,37 @@
+.requestContainer1 {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+.requestContainer1 h2 {
+    color: #d9534f;
+    margin-bottom: 10px;
+}
+
+.requestContainer1 p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.requestButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.requestButton:hover {
+    background-color: #0056b3;
+}
+
+.success, .error {
+    color: #666;
+    margin-bottom: 10px;
+}
